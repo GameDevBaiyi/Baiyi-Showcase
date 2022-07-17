@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cee73621ccb45579fe35c9934a8d07c, type: 3}
+  m_Name: GameDesignSO
+  m_EditorClassIdentifier: 
+  groundGenerationDesign:
+    seedLength: 10
+    mapSizeDefault: 150
+    mapSizeChoices: 96000000af000000c8000000
+    frequency: 6
+    octaves: 1
+    notWalkableTiles:
+    - {fileID: 11400000, guid: 6999afdd1af93c347b304068877fcefb, type: 2}
+    patchSize: 600
+    noiseRanges:
+    - {x: 0, y: 0.35}
+    - {x: 0.35, y: 0.5}
+    - {x: 0.5, y: 0.65}
+    - {x: 0.65, y: 1}
+    terrainSOs:
+    - {fileID: 11400000, guid: 18050ad48bd96d0489e3cddb4ad8e123, type: 2}
+    _tileSOsPath: Assets/_Game/SOs/TileSOs
+    tileSOs:
+    - {fileID: 11400000, guid: 23c41c1fe0ccbc045b19aa869db93c42, type: 2}
+    - {fileID: 11400000, guid: c5c51c6ef40980949a470906944fc92d, type: 2}
+    - {fileID: 11400000, guid: 800ef08568af4eb41aba8b7ea6029388, type: 2}
+    - {fileID: 11400000, guid: b0e045d537d1c4a4c8bbec894a3a0f0d, type: 2}
+    - {fileID: 11400000, guid: efd281186f81a44488a9e477238393a2, type: 2}
+    - {fileID: 11400000, guid: 6999afdd1af93c347b304068877fcefb, type: 2}
+  commonDesign:
+    mainMenuSceneIndex: 0
+    baseMapSceneIndex: 1
+    wildMapSize: 150
+    nodeSize: 1
+    saveFileDirectory: C:/Users/Administrator/AppData/LocalLow/BaiyiDevelopment/Baiyi
+      Showcase Refactored
+    saveFileExtension: .baiyiShowCase
+    cameraOrthographicSizeRange: {x: 5, y: 20}
+    cameraSpeed: 10
+  gameStaticSettingsDesign:
+    gameVolumeDefault: 0.5
+    musicVolumeDefault: 0.5
+    fullScreenModeDefault: 1
+    autoSaveIntervalDefault: 3
+    autoSaveIntervalRange: {x: 1, y: 10}
+    maxAutoSaveFiles: 10
+    autoSaveFilesCountDefault: 3
+    maxQuickSaveFiles: 10
+    quickSaveFilesCountDefault: 5
+  newGameSettingsDesign:
+    characterCountDefault: 3
+    characterCountChoices: 010000000300000005000000
+    namesToRandomize:
+    - Ara
+    - Vazgen
+    - Hagop
+    - Karekin
+    - Siran
+    - Arax
+    - Angelina
+    - Arevik
+    - Nerses
+    - Samvel
+    - Harutyun
+    - Vartan
+    - Khajag
+    - Zabel
+    - Mane
+    skillValueRange: {x: 1, y: 20}
+    skills:
+    - Fight
+    - Construction
+    - Mining
+    - Cooking
+    - Plants
+    - Crafting
+    - Artistic
+    - Medical
+    - Social
+  calendarDesign:
+    secondsInRealityToAMinuteInGame: 20
+    minutesInGameToAnHour: 20
+    hoursInGameToADay: 24
+    daysInGameToAMonth: 30
+    monthsInGameToAYear: 4
+  plantsDesign:
+    treePrefab: {fileID: 8202573889634852785, guid: 46f9c240bfc0510499a13ed9a4d4d409, type: 3}
+    cropPrefab: {fileID: 4524351673663615663, guid: dbe7248324d81b543bdf46c5a0942775, type: 3}
+    stageToYield: "\u6210\u719F\u671F"
+    growthStages:
+    - "\u5E7C\u82D7\u671F"
+    - "\u751F\u957F\u671F"
+    - "\u534A\u6210\u719F\u671F"
+    - "\u6210\u719F\u671F"
+    plantsGenerationRules:
+    - tileSO: {fileID: 11400000, guid: efd281186f81a44488a9e477238393a2, type: 2}
+      density: 0.06
+      plantSOAndRatios:
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: bd1397f53469a1c4488036bdfe8d39b3, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 1ef8ff080284b0044a1bd1ce2d28510a, type: 2}
+      - plantRatio: 2
+        plantSO: {fileID: 11400000, guid: 0b06f0b0c66631c458fc3b7273de9e47, type: 2}
+      - plantRatio: 2
+        plantSO: {fileID: 11400000, guid: 478fd9df8120bc8408faa26688c5d16f, type: 2}
+    - tileSO: {fileID: 11400000, guid: 23c41c1fe0ccbc045b19aa869db93c42, type: 2}
+      density: 0.12
+      plantSOAndRatios:
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 976f145546bddcf41a55d355e3999231, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: a9c481b200b9f604b915f623f946b2b8, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 4a1e3c4f8cdfe0645b31c22ba7dd48af, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: dcea4867f0808f54e9945174c83a4b4c, type: 2}
+      - plantRatio: 2
+        plantSO: {fileID: 11400000, guid: a3f4bcea3bafc5d4f8dd58dee28f409f, type: 2}
+      - plantRatio: 2
+        plantSO: {fileID: 11400000, guid: 0718af043663b2d4abdcf5bbb5e2e6d0, type: 2}
+    - tileSO: {fileID: 11400000, guid: c5c51c6ef40980949a470906944fc92d, type: 2}
+      density: 0.08
+      plantSOAndRatios:
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: d37c4cd83b9354846aac7cc15b52be05, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 1d9c3d5ff7b41614bae5cc671874d8ae, type: 2}
+      - plantRatio: 2
+        plantSO: {fileID: 11400000, guid: f8db73c7c3097aa468adfa40ef7a99cb, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 25fcddfec2d62b74fb1b0ed87ac5131e, type: 2}
+    - tileSO: {fileID: 11400000, guid: 800ef08568af4eb41aba8b7ea6029388, type: 2}
+      density: 0.15
+      plantSOAndRatios:
+      - plantRatio: 2
+        plantSO: {fileID: 11400000, guid: 9c50a5d57d5107b41b958301fe2bed40, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: b374fe0377f96094383f6bdefd65d308, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 07d3befeb861a224a9e381daaf65e26b, type: 2}
+      - plantRatio: 1
+        plantSO: {fileID: 11400000, guid: 502a8af7076b46440b10bd7722034976, type: 2}
+    _treeSOsPath: Assets/_Game/SOs/TreeSOs
+    treeSOs:
+    - {fileID: 11400000, guid: bd1397f53469a1c4488036bdfe8d39b3, type: 2}
+    - {fileID: 11400000, guid: 1ef8ff080284b0044a1bd1ce2d28510a, type: 2}
+    - {fileID: 11400000, guid: 976f145546bddcf41a55d355e3999231, type: 2}
+    - {fileID: 11400000, guid: a9c481b200b9f604b915f623f946b2b8, type: 2}
+    - {fileID: 11400000, guid: 4a1e3c4f8cdfe0645b31c22ba7dd48af, type: 2}
+    - {fileID: 11400000, guid: d37c4cd83b9354846aac7cc15b52be05, type: 2}
+    - {fileID: 11400000, guid: 1d9c3d5ff7b41614bae5cc671874d8ae, type: 2}
+    - {fileID: 11400000, guid: 88881c5e645abb2469fb37ed491f7e2e, type: 2}
+    - {fileID: 11400000, guid: 243851295a564af4db481424e1cb8486, type: 2}
+    - {fileID: 11400000, guid: 02569b5bea7fcf04197a26d4d8db4bc7, type: 2}
+    - {fileID: 11400000, guid: cecd016f7cdd957438514f919353ea10, type: 2}
+    - {fileID: 11400000, guid: 449006e5871e10e4994b1ec68eae8d38, type: 2}
+    _cropSOsPath: Assets/_Game/SOs/CropSOs
+    cropSOs:
+    - {fileID: 11400000, guid: 0b06f0b0c66631c458fc3b7273de9e47, type: 2}
+    - {fileID: 11400000, guid: 478fd9df8120bc8408faa26688c5d16f, type: 2}
+    - {fileID: 11400000, guid: a3f4bcea3bafc5d4f8dd58dee28f409f, type: 2}
+    - {fileID: 11400000, guid: dcea4867f0808f54e9945174c83a4b4c, type: 2}
+    - {fileID: 11400000, guid: 0718af043663b2d4abdcf5bbb5e2e6d0, type: 2}
+    - {fileID: 11400000, guid: f8db73c7c3097aa468adfa40ef7a99cb, type: 2}
+    - {fileID: 11400000, guid: 25fcddfec2d62b74fb1b0ed87ac5131e, type: 2}
+    - {fileID: 11400000, guid: 9c50a5d57d5107b41b958301fe2bed40, type: 2}
+    - {fileID: 11400000, guid: b374fe0377f96094383f6bdefd65d308, type: 2}
+    - {fileID: 11400000, guid: 07d3befeb861a224a9e381daaf65e26b, type: 2}
+    - {fileID: 11400000, guid: 502a8af7076b46440b10bd7722034976, type: 2}
+    - {fileID: 11400000, guid: cf893863e5453544086771b13c3df16b, type: 2}
+    - {fileID: 11400000, guid: a52d2468af0df364989ccf2ac42ecd35, type: 2}
+  oresDesign:
+    orePrefab: {fileID: 5727060589717000913, guid: 034abcd56966a69418c3e9d8d0c9fe7d, type: 3}
+    oreGroundTile: {fileID: 11400000, guid: b0e045d537d1c4a4c8bbec894a3a0f0d, type: 2}
+    oreSOPath: Assets/_Game/SOs/OreSOs
+    oreSOs:
+    - {fileID: 11400000, guid: 9c3600799b677cd48927fc0e8f9c36b4, type: 2}
+    - {fileID: 11400000, guid: df1760fdc7a62094ab55879cc7b66208, type: 2}
+    - {fileID: 11400000, guid: ef8df23607a501244b118933224b2bed, type: 2}
+  animalsDesign:
+    density: 0.005
+    tilesCantGenerateAnimals:
+    - {fileID: 11400000, guid: b0e045d537d1c4a4c8bbec894a3a0f0d, type: 2}
+    - {fileID: 11400000, guid: 6999afdd1af93c347b304068877fcefb, type: 2}
+    idle: Idle
+    walk: Walk
+    attack: Attack
+    death: Death
+    animalSOsPath: Assets/_Game/SOs/AnimalsSO
+    animalSOs:
+    - {fileID: 11400000, guid: b60cdf57af445d7419e2db937ff63633, type: 2}
+    - {fileID: 11400000, guid: 89c484d075d3dfa4f946d1f224120ec1, type: 2}
+    - {fileID: 11400000, guid: d06cb50316acbd64998ea6e03f1defb2, type: 2}
+    - {fileID: 11400000, guid: fa9ed672487fd604aa1791821e0e1a69, type: 2}
+    - {fileID: 11400000, guid: 9cd532f36ca372e44ae090b1229dc6d5, type: 2}
+    - {fileID: 11400000, guid: 6d458617aabcc8f45bfbd16125238cc7, type: 2}
+    - {fileID: 11400000, guid: 713dcc3dd0cb68749b80fa07fc65d99f, type: 2}
+    - {fileID: 11400000, guid: 0a548f64926c1da4e99d5f7c8a6abdc0, type: 2}
+    - {fileID: 11400000, guid: 365d58c6ce2cac34c9d0898012451231, type: 2}
+    - {fileID: 11400000, guid: 0e7755ccd3d16f248a46e0e4ae4c303b, type: 2}
+    - {fileID: 11400000, guid: cb434ac281a372047a06e3ae8428a296, type: 2}
+    - {fileID: 11400000, guid: 3104f37d169dc284d8d1a528ac4655ca, type: 2}
+    - {fileID: 11400000, guid: 55f225e5fd0d4f34ca964ac5aa1657a8, type: 2}
+    - {fileID: 11400000, guid: f0751adead799204bbf64fdcf1727c4d, type: 2}
+    - {fileID: 11400000, guid: 054d6b554b59ad8488f3e69a808a9910, type: 2}
+    - {fileID: 11400000, guid: b26db12b4a183de47baab59ec2472587, type: 2}
+    - {fileID: 11400000, guid: 72fd12ebd663e724e97a41ca5d80d140, type: 2}
+    - {fileID: 11400000, guid: 5823e91da0382e546bb00010ca8788bf, type: 2}
+  colonistsDesign:
+    colonistPrefab: {fileID: 3691161669804101471, guid: f81eddb390e46ed4d85a80b99598d91e, type: 3}
+    idleTimeRange: {x: 2, y: 5}
+    pathLengthRange: {x: 5, y: 10}
+    tilesCantGeneratingColonistFirstly:
+    - {fileID: 11400000, guid: b0e045d537d1c4a4c8bbec894a3a0f0d, type: 2}
+    - {fileID: 11400000, guid: 6999afdd1af93c347b304068877fcefb, type: 2}
+    customizations:
+    - name: Head
+      sprites:
+      - {fileID: -7252215782646672311, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -7252215782646672311, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -7252215782646672311, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+      - {fileID: -7252215782646672311, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -7252215782646672311, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -7252215782646672311, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -7252215782646672311, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -7252215782646672311, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -1381065623766834176, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -1381065623766834176, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+      - {fileID: -1381065623766834176, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -1381065623766834176, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -1381065623766834176, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -1381065623766834176, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -1381065623766834176, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -1381065623766834176, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -1828946549344447192, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -1828946549344447192, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -1828946549344447192, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -1828946549344447192, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -1828946549344447192, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -1828946549344447192, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -1828946549344447192, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -1828946549344447192, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+    - name: Body
+      sprites:
+      - {fileID: -5673618120071735642, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -5673618120071735642, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -5673618120071735642, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -5673618120071735642, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -5673618120071735642, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -5673618120071735642, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -5673618120071735642, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -5673618120071735642, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+    - name: Left Arm
+      sprites:
+      - {fileID: -4550084578846169200, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -4550084578846169200, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -4550084578846169200, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -4550084578846169200, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -4550084578846169200, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -4550084578846169200, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -4550084578846169200, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -4550084578846169200, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+    - name: Right Arm
+      sprites:
+      - {fileID: 624974917677838921, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: 624974917677838921, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: 624974917677838921, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: 624974917677838921, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: 624974917677838921, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: 624974917677838921, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: 624974917677838921, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: 624974917677838921, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+    - name: Weapon
+      sprites:
+      - {fileID: 2828032271763480184, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: 2828032271763480184, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: 2828032271763480184, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: 2828032271763480184, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: 2828032271763480184, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: 2828032271763480184, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: 2828032271763480184, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: 2828032271763480184, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+    - name: Left Leg
+      sprites:
+      - {fileID: -524195514793821918, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -524195514793821918, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -524195514793821918, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -524195514793821918, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -524195514793821918, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -524195514793821918, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -524195514793821918, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -524195514793821918, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}
+    - name: Right Leg
+      sprites:
+      - {fileID: -524195514793821918, guid: e789ee031002f2f4cb49aea16b386fd5, type: 3}
+      - {fileID: -524195514793821918, guid: 2b14a6480f15869478e179862a4aa173, type: 3}
+      - {fileID: -524195514793821918, guid: e856a4bac9367d6499cf15032e4dddc5, type: 3}
+      - {fileID: -524195514793821918, guid: aacf83c3c58c84d4fbc5771df7dc24b9, type: 3}
+      - {fileID: -524195514793821918, guid: 8a1c4d69137ae914180463f6c152b1b4, type: 3}
+      - {fileID: -524195514793821918, guid: 9e2a1c8175335c04c8dca356121ed5cc, type: 3}
+      - {fileID: -524195514793821918, guid: 9ad7a1c90da6b8646804c8ee3e3d93eb, type: 3}
+      - {fileID: -524195514793821918, guid: 649e66efda2257a4da8ab5325f7b5ea1, type: 3}

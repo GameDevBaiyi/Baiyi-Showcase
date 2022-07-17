@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f744faacde24424798194cbd5ae79a87, type: 3}
+  m_Name: OreSO 3
+  m_EditorClassIdentifier: 
+  oreName: Ore_3
+  description: Some sort of ores. Ore_3
+  sprites:
+  - {fileID: -1969653565, guid: f549b81da3cb6b1408b103169d666b98, type: 3}
+  - {fileID: 626996745, guid: f549b81da3cb6b1408b103169d666b98, type: 3}
+  - {fileID: -753890732, guid: f549b81da3cb6b1408b103169d666b98, type: 3}
+  - {fileID: 1916694854, guid: f549b81da3cb6b1408b103169d666b98, type: 3}
+  - {fileID: -347165126, guid: f549b81da3cb6b1408b103169d666b98, type: 3}
+  - {fileID: -704295302, guid: f549b81da3cb6b1408b103169d666b98, type: 3}
+  - {fileID: 1677340290, guid: f549b81da3cb6b1408b103169d666b98, type: 3}

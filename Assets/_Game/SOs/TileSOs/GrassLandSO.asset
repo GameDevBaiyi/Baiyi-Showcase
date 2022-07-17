@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901e45435f06453dab74dc269a099e6f, type: 3}
+  m_Name: GrassLandSO
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 26c0d7b823cf92940a50b5486cea2682, type: 2}
+  - {fileID: 11400000, guid: 791ee537a2c76aa4ba7109c135024b1d, type: 2}
+  - {fileID: 11400000, guid: ed6efbf6c5f25f043bffc9a460ac37a0, type: 2}
+  - {fileID: 11400000, guid: b2008703e5d129247bec8d6137b6bdf4, type: 2}
+  - {fileID: 11400000, guid: 6a84491dc2bc6cd489ac5838315aea98, type: 2}
+  - {fileID: 11400000, guid: 2203147de522f6241bc79820f81ad857, type: 2}
+  - {fileID: 11400000, guid: 94e220cd2e3f8464ca17ac3c7e5bacc1, type: 2}
+  - {fileID: 11400000, guid: 2ee22c839c656f746a12f54dcf013afb, type: 2}
+  - {fileID: 11400000, guid: f9694b2d7dc92c14e8be6cab4916288d, type: 2}
+  - {fileID: 11400000, guid: 17f2d59d1dc568b4ea9435201a4e2755, type: 2}
+  - {fileID: 11400000, guid: 42b49881947aefd459c1dbe9a8d1176d, type: 2}

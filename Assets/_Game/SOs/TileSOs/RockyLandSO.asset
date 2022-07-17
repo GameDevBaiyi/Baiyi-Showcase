@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901e45435f06453dab74dc269a099e6f, type: 3}
+  m_Name: RockyLandSO
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 029605d4d660f814aaf51efd2af92de4, type: 2}
+  - {fileID: 11400000, guid: 7578beef52c6a41428ddcade2611c666, type: 2}
+  - {fileID: 11400000, guid: b1a3202820aba0f43834c4406c55949c, type: 2}
+  - {fileID: 11400000, guid: bb01d0fb4cd797744b626d8c909ce04d, type: 2}
+  - {fileID: 11400000, guid: e64f504626cc32345b9e5ad0b77fd9d8, type: 2}

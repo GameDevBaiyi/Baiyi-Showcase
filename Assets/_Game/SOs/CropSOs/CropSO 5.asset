@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb1798e40a14fdea302071f2cadc4bc, type: 3}
+  m_Name: CropSO 5
+  m_EditorClassIdentifier: 
+  plantName: Crop_5
+  description: Some Kind of crop.
+  stages:
+  - {x: 0, y: 3}
+  - {x: 3, y: 10}
+  - {x: 10, y: 13}
+  - {x: 13, y: 18}
+  sprites:
+  - {fileID: -190551369, guid: 5cb36faad3b06524db03b82500340ee1, type: 3}
+  - {fileID: -1786822752, guid: 5cb36faad3b06524db03b82500340ee1, type: 3}
+  - {fileID: 1328613156, guid: 5cb36faad3b06524db03b82500340ee1, type: 3}
+  - {fileID: 911890947, guid: 5cb36faad3b06524db03b82500340ee1, type: 3}
+  - {fileID: 436865203, guid: 5cb36faad3b06524db03b82500340ee1, type: 3}

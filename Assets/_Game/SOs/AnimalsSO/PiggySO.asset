@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ce02b028e2481faad785af56357846, type: 3}
+  m_Name: PiggySO
+  m_EditorClassIdentifier: 
+  animalPrefab: {fileID: 2651249645361165397, guid: a189eaffbc83ceb44b54a6d28e518f57, type: 3}
+  maxIdleTimeRange: {x: 5, y: 10}
+  moveRadius: 3.5860155
+  maxWalkTimeRange: {x: 5, y: 10}
+  maxEatTimeRange: {x: 5, y: 10}
+  maxSleepTimeRange: {x: 5, y: 10}
+  moveSpeed: 0.37577525

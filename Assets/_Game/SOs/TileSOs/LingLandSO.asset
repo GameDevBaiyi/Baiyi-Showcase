@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901e45435f06453dab74dc269a099e6f, type: 3}
+  m_Name: LingLandSO
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 36b717d1f70e4bd488b0ef0e5cc01a9a, type: 2}
+  - {fileID: 11400000, guid: b5c9541ced83da04ba0c71b27c8214c8, type: 2}
+  - {fileID: 11400000, guid: 5bef5974f10dc184fa796b4a4ff15b98, type: 2}
+  - {fileID: 11400000, guid: a1fd9f8e27fd7e744a93f6f80931c2fd, type: 2}
+  - {fileID: 11400000, guid: ea133fe41e460b24e8a51e897714cdba, type: 2}
+  - {fileID: 11400000, guid: 53e1eefb7d687894795dd13e96c8d8a9, type: 2}
+  - {fileID: 11400000, guid: 6a40b875f4423f8479062f3d94c82a25, type: 2}
+  - {fileID: 11400000, guid: 55108dd0682504341925f3510ada4bea, type: 2}
+  - {fileID: 11400000, guid: ab29f954d5186a546bb91ef9cac243a6, type: 2}
+  - {fileID: 11400000, guid: 4c494af4284d1db49821b7bd41081a2c, type: 2}
+  - {fileID: 11400000, guid: a9c073a53e3e6264b90c1d9aa1cc268e, type: 2}
+  - {fileID: 11400000, guid: 18a8f79622a0da845b095b25c7ed9f1a, type: 2}

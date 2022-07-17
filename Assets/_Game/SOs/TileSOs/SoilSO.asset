@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901e45435f06453dab74dc269a099e6f, type: 3}
+  m_Name: SoilSO
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 7240b1363a50ac548b00dbac01182a8f, type: 2}
+  - {fileID: 11400000, guid: fcfdbe956f668c74b86099a00ca2ca38, type: 2}
+  - {fileID: 11400000, guid: ab613005fcc454b4694d610c54bdc4c3, type: 2}
+  - {fileID: 11400000, guid: 420f5aa7fd112fb4f91a539277c03ac5, type: 2}
+  - {fileID: 11400000, guid: bc38488591622ee4f88bb6a94aafa31b, type: 2}
+  - {fileID: 11400000, guid: 8247f0326fe42c043ad6924d747e1d5f, type: 2}
+  - {fileID: 11400000, guid: a220c38d43f9c5845ac8e76702d1f76b, type: 2}
+  - {fileID: 11400000, guid: 99da34b50cf301548a5da124d118b53c, type: 2}
+  - {fileID: 11400000, guid: 1955d68de15389140845cfd0128ec2bf, type: 2}
+  - {fileID: 11400000, guid: 23fcff8a6be994d45baf89cd163d6b0c, type: 2}
+  - {fileID: 11400000, guid: 8e0e606284335dd4f811d81bfa868788, type: 2}
+  - {fileID: 11400000, guid: 6bbe4ba2b365f9443b4799c256df2ce8, type: 2}

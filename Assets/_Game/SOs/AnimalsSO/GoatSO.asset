@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ce02b028e2481faad785af56357846, type: 3}
+  m_Name: GoatSO
+  m_EditorClassIdentifier: 
+  animalPrefab: {fileID: 4440077213342956291, guid: 91849d6908017b44aac402cb0add9395, type: 3}
+  maxIdleTimeRange: {x: 5, y: 10}
+  moveRadius: 3.632992
+  maxWalkTimeRange: {x: 5, y: 10}
+  maxEatTimeRange: {x: 5, y: 10}
+  maxSleepTimeRange: {x: 5, y: 10}
+  moveSpeed: 0.39158395

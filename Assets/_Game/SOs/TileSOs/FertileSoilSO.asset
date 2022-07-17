@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901e45435f06453dab74dc269a099e6f, type: 3}
+  m_Name: FertileSoilSO
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 5f10b714940b44345be6ea70dd1c03fb, type: 2}
+  - {fileID: 11400000, guid: e88c4501158a3fb4cbcc95f9be7c05b0, type: 2}
+  - {fileID: 11400000, guid: c25d1309fb296b748a5b692e1c992cdf, type: 2}
+  - {fileID: 11400000, guid: cbcdcdedc1138544f9a1a38a13274ce7, type: 2}
+  - {fileID: 11400000, guid: c2266cc1a96624b4b8400cce3d211c31, type: 2}
+  - {fileID: 11400000, guid: 8bf027d5cc5b6904588ccfa3938f529e, type: 2}
+  - {fileID: 11400000, guid: edfefd65022d4a243ad70a02c3748b71, type: 2}
+  - {fileID: 11400000, guid: a7d285191791a9547b7582ad07b759dc, type: 2}
+  - {fileID: 11400000, guid: 70e4f7b9cdc212b49b0efb524f3903f7, type: 2}
+  - {fileID: 11400000, guid: 7fa8cc036eaeb8245a87c1ad39578cb4, type: 2}
+  - {fileID: 11400000, guid: e21391259db18d54ab5e178b4d01acf8, type: 2}
+  - {fileID: 11400000, guid: 70a74432167df60479b28b2ebe8c7d79, type: 2}
